@@ -1,3 +1,7 @@
+
+![Contact_Sequence](https://github.com/D4rkisek/contact-sequence-diagram/assets/106534376/584f046d-1d1c-40b2-a70f-a31bf415e109)
+
+
 # Dependencies:
 Matplotlib & Raphtory
 
