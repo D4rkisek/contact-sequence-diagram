@@ -9,17 +9,17 @@ Matplotlib & Raphtory
 `ContactSequenceDiagram(self, graph, earliest_time=None, latest_time=None, figsize=(12, 5), save_file=False, filename='Contact_Sequence.PNG')`
 
 # Parameters: 
-`graph`: A Graph object containing vertices and edges with temporal information.
+`graph`: Takes a graph object made in Raphtory library. A Graph object containing vertices and edges with temporal information.
 
-`earliest_time` (optional): The earliest time point to consider in the diagram. Defaults to the earliest time in the graph.
+`earliest_time` (optional): Takes an integer. The earliest time point to consider in the diagram. Defaults to the earliest time in the graph.
 
-`latest_time` (optional): The latest time point to consider in the diagram. Defaults to the latest time in the graph.
+`latest_time` (optional): Takes an integer. The latest time point to consider in the diagram. Defaults to the latest time in the graph.
 
-`figsize` (optional): The size of the diagram.
+`figsize` (optional): Takes a tuple of integers. The size of the diagram.
 
-`save_file` (optional): The specification whether the diagram would want to be saved.
+`save_file` (optional): Takes a boolean value. The specification of whether the diagram would want to be saved.
 
-`filename` (optional): The filename for saving the generated diagram.
+`filename` (optional): Takes a string. The filename for saving the generated diagram.
 
 # Example usage:
 ```
